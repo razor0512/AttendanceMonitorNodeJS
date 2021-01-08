@@ -13,7 +13,9 @@ exports.log = req => {
                 fs.appendFile(path, data, ()=>{});
             }
             else {
-                fs.writeFile(path, data, ()=>{});
+                fs.mkdir(folderName, () =>{
+                    fs.writeFile(path, data, ()=>{});
+                });                
             }
         }); 
     }
