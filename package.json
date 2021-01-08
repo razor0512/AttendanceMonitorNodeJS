@@ -1,0 +1,21 @@
+{
+  "name": "attendancemonitoring",
+  "version": "1.0.0",
+  "description": "Attendance monitoring for a small event. ",
+  "main": "attendanceApp/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Eric Siangco",
+  "license": "ISC",
+  "dependencies": {
+    "configenv": "^1.0.2",
+    "dotenv": "^8.2.0",
+    "exceljs": "^4.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.0",
+    "json2xls": "^0.1.2",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.9"
+  }
+}
